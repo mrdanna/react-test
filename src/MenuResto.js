@@ -1,6 +1,14 @@
+import './MenuResto.css'
+
 function MenuResto(){
+    const styleMenuItem = {
+        backgroundColor: "#333",
+        padding: "10px",
+        color: "#fff",
+        borderRadius: "10px",
+    }
     return(
-        <div className="menu-item">
+        <div style={styleMenuItem}>
             <div><b>Nama Menu:</b><em>Nasi Bakar</em></div>
             <div><b>Harga:</b><em>20000</em></div>
         </div>
